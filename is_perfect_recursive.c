@@ -7,7 +7,7 @@
  * @level: Current level of the node
  * Return: 1 if tree is perfect, 0 otherwise
  */
-int is_perfect_recursive(const binary_tree_t *tree, size_t depth, size_t level)
+int is_perfect_recursive(const binary_tree_t *tree, int depth, int level)
 {
 	if (tree == NULL)
 		return (1);
